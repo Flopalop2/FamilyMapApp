@@ -1,0 +1,55 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="Settings">
+
+        <SwitchPreferenceCompat
+            app:key="storylines"
+            app:summary="SHOW LIFE STORY LINES"
+            app:title="Life Story Lines"
+            app:defaultValue="true"/>
+
+        <SwitchPreferenceCompat
+            app:key="treelines"
+            app:summary="SHOW FAMILY TREE LINES"
+            app:title="Family Tree Lines"
+            app:defaultValue="true"/>
+
+        <SwitchPreferenceCompat
+            app:key="spouselines"
+            app:summary="SHOW SPOUSE LINES"
+            app:title="Spouse Lines"
+            app:defaultValue="true"/>
+
+        <SwitchPreferenceCompat
+            app:key="fathersside"
+            app:summary="FILTER BY FATHER'S SIDE OF THE FAMILY"
+            app:title="Father's Side"
+            app:defaultValue="true"/>
+
+        <SwitchPreferenceCompat
+            app:key="mothersside"
+            app:summary="FILTER BY MOTHER'S SIDE OF THE FAMILY"
+            app:title="Mother's Side"
+            app:defaultValue="true"/>
+
+        <SwitchPreferenceCompat
+            app:key="maleevents"
+            app:summary="FILTER EVENTS BASED ON GENDER"
+            app:title="Male Events"
+            app:defaultValue="true"/>
+
+        <SwitchPreferenceCompat
+            app:key="femaleevents"
+            app:summary="FILTER EVENTS BASED ON GENDER"
+            app:title="Female Events"
+            app:defaultValue="true"/>
+
+        <Preference
+            app:key="loggout"
+            app:summary="RETURN TO LOGIN SCREEN"
+            app:title = "Logout" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
